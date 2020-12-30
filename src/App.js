@@ -46,7 +46,7 @@ class App extends Component{
 
     return (
       <div>
-        <div className="parent">
+        <div className="bar-parent">
           {array.map((value, index) => {
             const styles = {
               height: `${value}px` ,

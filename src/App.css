@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+.bar-parent{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 500px;
+}
 .parent{
   display: flex;
   justify-content: center;
