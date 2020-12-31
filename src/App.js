@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 import Form from './components/Form';
 
-
+// make this code more modular
+// break the rectangles into a function or component
+// try to add more components
 class App extends Component{
   constructor(props){
     super(props);
