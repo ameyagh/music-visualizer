@@ -1,15 +1,13 @@
 import React from "react";
 import "./Player.css";
 
-const Player = props => {
+const Player = (props) => {
   const backgroundStyles = {
-    backgroundImage:`url(${
-      props.item.album.images[0].url
-    })`,
+    backgroundImage: `url(${props.item.album.images[0].url})`,
   };
 
   const progressBarStyles = {
-    width: (props.progress_ms * 100 / props.item.duration_ms) + '%'
+    width: (props.progress_ms * 100) / props.item.duration_ms + "%",
   };
 
   return (
@@ -34,6 +32,6 @@ const Player = props => {
       </div>
     </div>
   );
-}
+};
 
 export default Player;
