@@ -1,19 +1,11 @@
 import React, { Component } from "react";
 import "./App.css";
 import hash from "./hash";
+import { authEndpoint, clientId, redirectUri, scopes } from "./config";
 import Form from "./components/Form";
 import * as $ from "jquery";
 import Player from "./Player";
 
-/**
- * Spotify API Read
- */
-export const authEndpoint = "https://accounts.spotify.com/authorize";
-
-// Replace with your app's client ID, redirect URI and desired scopes
-const clientId = "df010c4f38ab4947aabe303af43358d1";
-const redirectUri = "http://localhost:3000";
-const scopes = ["user-read-currently-playing", "user-read-playback-state"];
 
 // make this code more modular
 // break the rectangles into a function or component
